@@ -58,7 +58,7 @@ const EditorHome = () => {
   });
 
   return (
-    <div className="home">
+    <>
       <Navbar />
       <h2>This is Editor Home</h2>
 
@@ -72,7 +72,7 @@ const EditorHome = () => {
           ))}
         </tbody>
       </table>
-    </div>
+    </>
   );
 };
 
